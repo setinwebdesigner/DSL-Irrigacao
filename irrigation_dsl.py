@@ -320,7 +320,7 @@ def executar_sistema_irrigacao(programa: str):
         return
     
     print("\n✨ Execução do programa concluída")
-    print("--------------------------------------------------")
+    print("------------------------------------------------")
 
 # Exemplo de uso
 if __name__ == "__main__":
