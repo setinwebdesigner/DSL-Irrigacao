@@ -1,0 +1,23 @@
+# Arquivos Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Arquivos de log
+*.log
+
+# Arquivos de estado
+estado_sistema.json
+
+# Arquivos temporários
+*.tmp
+*.bak
+
+# Arquivos do VS Code/IDE
+.vscode/
+.idea/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db 

@@ -1,0 +1,25 @@
+# Programa de exemplo do Sistema de Irrigação
+# Este programa configura múltiplos sensores e regras
+
+# Configuração dos sensores
+SET SENSOR "Umidade Solo 1 ID 1
+SET SENSOR "Umidade Solo 2 ID 2
+SET SENSOR "Temperatura" ID 3
+
+# Regras para o primeiro sensor
+IF SENSOR 1 < 30 THEN TURN_ON "Bomba 1"
+IF SENSOR 1 > 80 THEN TURN_OFF "Bomba 1"
+
+# Espera para estabilização
+WAIT 5
+
+# Regras para o segundo sensor
+IF SENSOR 2 < 25 THEN TURN_ON "Bomba 2"
+IF SENSOR 2 > 75 THEN TURN_OFF "Bomba 2"
+
+# Regras de temperatura
+IF SENSOR 3 > 35 THEN TURN_ON "Nebulizador"
+IF SENSOR 3 < 25 THEN TURN_OFF "Nebulizador"
+
+# Ciclo de verificação
+WAIT 10 

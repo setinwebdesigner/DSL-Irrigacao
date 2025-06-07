@@ -1,0 +1,9 @@
+umidade
+temperatura
+tempo_bomba1
+
+
+Sensor de umidade ira ficar desativado ate <=20
+Sesor de temperatura deve abaixo de 28
+Bomba 1 ficara ligado apos um dos sensores alcansar o set point
+
