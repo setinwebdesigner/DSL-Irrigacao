@@ -5,10 +5,10 @@ __pycache__/
 *.so
 
 # Arquivos de log
-*.log
+# *.log
 
 # Arquivos de estado
-estado_sistema.json
+# estado_sistema.json
 
 # Arquivos temporários
 *.tmp

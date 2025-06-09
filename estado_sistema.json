@@ -1,0 +1,22 @@
+{
+  "sensores": {
+    "1": {
+      "nome": "Umidade Solo 1",
+      "valor": 35
+    },
+    "2": {
+      "nome": "Umidade Solo 2",
+      "valor": 93
+    },
+    "3": {
+      "nome": "Temperatura",
+      "valor": 94
+    }
+  },
+  "dispositivos": {
+    "Bomba 1": false,
+    "Bomba 2": false,
+    "Ventilador": true
+  },
+  "timestamp": "2025-06-06 21:30:23"
+}
